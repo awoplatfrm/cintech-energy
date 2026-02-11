@@ -1,0 +1,373 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Contact - CINTECH ENERGY LIMITED | Get in Touch</title>
+    <meta name="description"
+        content="Contact CINTECH ENERGY LIMITED. Lagos-based engineering services for telecom audit, solar installation, and power infrastructure. Call, email, or visit our office.">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- NAVIGATION - Same as index -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">CINTECH<span class="logo-highlight">ENERGY</span></span>
+                    <span class="logo-small">LIMITED</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="credentials.html">Credentials</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="tel:07037792898" class="nav-call"><i class="fas fa-phone-alt"></i></a>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <ul class="mobile-nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="credentials.html">Credentials</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-contact">
+            <p><i class="fas fa-map-marker-alt"></i> No 8C Borepo Aboru, Iyana Ipaja, Lagos</p>
+            <p><i class="fas fa-phone"></i> 0703 779 2898 | 0703 487 5737</p>
+            <div class="mobile-nav-buttons">
+                <a href="contact.html" class="btn btn-primary btn-block">Request Quote</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- PAGE HERO - Contact -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <h1>Contact Us</h1>
+                    <p class="page-hero-text">Reach out directly to the engineer behind every project</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT INFO BANNER -->
+        <section class="contact-info-banner">
+            <div class="container">
+                <div class="contact-banner-grid">
+                    <div class="contact-banner-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Office Address</h3>
+                        <p>No 8C Borepo Aboru<br>Iyana Ipaja, Lagos<br>Nigeria</p>
+                    </div>
+                    <div class="contact-banner-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Call Us</h3>
+                        <p>0703 779 2898<br>0703 487 5737<br>0911 505 4853</p>
+                        <a href="tel:07037792898" class="contact-banner-link">Click to Call</a>
+                    </div>
+                    <div class="contact-banner-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>[INSERT EMAIL]</p>
+                        <a href="mailto:[INSERT EMAIL]" class="contact-banner-link">Send Email</a>
+                    </div>
+                    <div class="contact-banner-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 8:00am - 5:00pm<br>Saturday: 9:00am - 1:00pm<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT FORM & MAP -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2>Request a Quote</h2>
+                        <p class="form-intro">Fill out the form below and the principal engineer will respond within 24
+                            hours.</p>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="0703 123 4567">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Service Interested In</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="telecom">Telecom Site Acceptance Audit</option>
+                                    <option value="solar">Solar Energy Installation</option>
+                                    <option value="power">Power Infrastructure</option>
+                                    <option value="contracting">General Contracting & Supply</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Project Details *</label>
+                                <textarea id="message" name="message" rows="5"
+                                    placeholder="Tell us about your project, requirements, and timeline..."
+                                    required></textarea>
+                            </div>
+
+                            <div class="form-group form-checkbox">
+                                <input type="checkbox" id="urgent" name="urgent">
+                                <label for="urgent">This is an urgent request (priority response)</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large btn-block">Send Request <i
+                                    class="fas fa-paper-plane"></i></button>
+                        </form>
+
+                        <div class="form-note">
+                            <p><i class="fas fa-lock"></i> Your information is secure. We'll only use it to respond to
+                                your inquiry.</p>
+                        </div>
+                    </div>
+
+                    <!-- Map & Additional Info -->
+                    <div class="contact-sidebar">
+                        <div class="contact-card">
+                            <h3>Visit Our Office</h3>
+                            <!-- [INSERT IMAGE: Office location or street view] -->
+                            <div class="map-placeholder">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-map"></i>
+                                    <p>Office Location Map</p>
+                                    <span>Insert photo of office/street here</span>
+                                </div>
+                            </div>
+                            <p class="map-address">
+                                <i class="fas fa-location-dot"></i>
+                                No 8C Borepo Aboru, Iyana Ipaja, Lagos
+                            </p>
+                            <p class="direction-note">Located in Iyana Ipaja. Call for precise directions.</p>
+                            <a href="https://maps.google.com/?q=Borepo+Aboru+Iyana+Ipaja+Lagos" target="_blank"
+                                class="btn btn-outline btn-block">
+                                <i class="fas fa-directions"></i> Open in Google Maps
+                            </a>
+                        </div>
+
+                        <div class="contact-card">
+                            <h3>Direct Contact</h3>
+                            <div class="direct-contact-list">
+                                <div class="direct-contact-item">
+                                    <i class="fas fa-user-tie"></i>
+                                    <div>
+                                        <strong>Principal Engineer</strong>
+                                        <p>[INSERT FULL NAME]</p>
+                                    </div>
+                                </div>
+                                <div class="direct-contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <strong>Phone / WhatsApp</strong>
+                                        <p>0703 779 2898</p>
+                                        <p>0703 487 5737</p>
+                                        <p>0911 505 4853</p>
+                                    </div>
+                                </div>
+                                <div class="direct-contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <strong>Email</strong>
+                                        <p>[INSERT EMAIL]</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="emergency-contact">
+                                <h4><i class="fas fa-exclamation-triangle"></i> Emergency / Urgent Projects</h4>
+                                <p>For urgent site audits or emergency power issues, call directly:</p>
+                                <a href="tel:07037792898" class="btn btn-primary btn-block">
+                                    <i class="fas fa-phone-alt"></i> Call 0703 779 2898
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <h3>Connect With Us</h3>
+                            <p>Follow us for project updates and industry news.</p>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                            <p class="social-note">(Insert actual social media handles if available)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CONTACT DIRECTLY -->
+        <section class="direct-benefits">
+            <div class="container">
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <i class="fas fa-user-check"></i>
+                        <h3>Speak Directly to the Engineer</h3>
+                        <p>No receptionists. No account managers. You'll communicate directly with [FULL NAME] from
+                            first contact to project completion.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Fast Response</h3>
+                        <p>All inquiries receive a personal response within 24 hours. Urgent requests are prioritized.
+                        </p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-file-signature"></i>
+                        <h3>Detailed Proposals</h3>
+                        <p>Expect comprehensive scope of work, methodology, and timelines — no vague quotations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ SNAPSHOT -->
+        <section class="contact-faq">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Do you work outside Lagos?</h3>
+                        <p>Yes. We've completed projects across West Africa, South-East, South-South, North-Central, and
+                            Abuja. Distance is not a barrier.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What is your response time?</h3>
+                        <p>For new inquiries, within 24 hours. For urgent site issues, we can mobilize same-day for
+                            existing clients.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you handle both small and large projects?</h3>
+                        <p>Yes. From single solar installations to 100+ transformer rural electrification projects — the
+                            same standard applies.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can you provide references?</h3>
+                        <p>Absolutely. Professional referees are listed on our Credentials page. We can also provide
+                            client references upon request.</p>
+                    </div>
+                </div>
+
+                <div class="faq-cta">
+                    <a href="credentials.html#referees" class="btn btn-secondary">View Referees</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-text">CINTECH<span class="logo-highlight">ENERGY</span></span>
+                        <span class="logo-small">LIMITED</span>
+                    </a>
+                    <p class="footer-address">
+                        <i class="fas fa-map-marker-alt"></i> No 8C Borepo Aboru, Iyana Ipaja, Lagos
+                    </p>
+                    <p class="footer-phone">
+                        <i class="fas fa-phone"></i> 0703 779 2898 | 0703 487 5737
+                    </p>
+                    <p class="footer-email">
+                        <i class="fas fa-envelope"></i> [INSERT EMAIL]
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="credentials.html">Credentials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h4>Core Services</h4>
+                    <ul>
+                        <li><a href="services.html#telecom">Telecom Audit</a></li>
+                        <li><a href="services.html#solar">Solar Installation</a></li>
+                        <li><a href="services.html#power">Power Infrastructure</a></li>
+                        <li><a href="services.html#contracting">General Contracting</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-cta">
+                    <h4>Ready to work?</h4>
+                    <a href="contact.html" class="btn btn-primary btn-block">Request Quote</a>
+                    <p class="footer-rc">RC Number: [INSERT RC NUMBER]</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 CINTECH ENERGY LIMITED. All Rights Reserved.</p>
+                <p class="developer-credit">Designed for CINTECH ENERGY</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize contact form validation
+        document.addEventListener('DOMContentLoaded', function () {
+            if (typeof window.initContactForm === 'function') {
+                window.initContactForm();
+            }
+        });
+    </script>
+</body>
+
+</html>
